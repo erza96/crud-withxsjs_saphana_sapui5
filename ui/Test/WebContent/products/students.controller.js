@@ -18,7 +18,7 @@ sap.ui.controller("products.students", {
 		sap.ui.getCore().setModel(oModel, "products");
 	},
 	
-	//ne fillim hide forma
+	// form should be hidden in the beginning
 	onAfterRendering: function() {
 		$("#formId").hide();
 		$("#formId_edit").hide();
@@ -78,8 +78,6 @@ edit: function(){
 			
 		}
 	
-		
-		//console.log();
 		//console.log(path2);
 	
 		//alert(selected);
